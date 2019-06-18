@@ -7,7 +7,7 @@ public class ClientBootstrap {
 
 	public static void main(String[] args) throws InterruptedException {
 		RpcConsumer consumer = new RpcConsumer();
-		// 创建一个代理对象
+		//创建一个代理对象
 		HelloService service = (HelloService) consumer.createProxy(HelloService.class, providerName);
 		for (;;) {
 			Thread.sleep(1000);

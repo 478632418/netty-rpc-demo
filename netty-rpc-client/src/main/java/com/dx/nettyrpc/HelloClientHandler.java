@@ -16,7 +16,7 @@ public class HelloClientHandler extends ChannelInboundHandlerAdapter implements 
 	}
 
 	/**
-	 * 收到服务端数据，唤醒等待线程
+	 * 收到服务端数据，唤醒等待线程 
 	 */
 	@Override
 	public synchronized void channelRead(ChannelHandlerContext ctx, Object msg) {
@@ -26,6 +26,7 @@ public class HelloClientHandler extends ChannelInboundHandlerAdapter implements 
 
 	/**
 	 * 写出数据，开始等待唤醒
+	 * 
 	 * @throws InterruptedException 
 	 */
 	public synchronized Object call() throws InterruptedException  {
