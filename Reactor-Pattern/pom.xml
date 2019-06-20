@@ -5,7 +5,5 @@
     <artifactId>netty-rpc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>netty-rpc-client</artifactId>  
-  <groupId>com.dx.nettyrpc.client</groupId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>Reactor-Pattern</artifactId>
 </project>

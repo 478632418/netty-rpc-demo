@@ -17,5 +17,6 @@
 	<modules>
 		<module>netty-rpc-server</module>
 		<module>netty-rpc-client</module>
+		<module>Reactor-Pattern</module>
 	</modules>
 </project>
